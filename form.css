@@ -116,22 +116,21 @@ fieldset {
 input {
     
     border-radius: 5%;
+    border-color: burlywood;
+    box-shadow: 1px 0px burlywood;
 
 
 }
 
-input:focus {
-    border-color: aquamarine;
-    box-shadow: 3px 0px aquamarine;
-
-}
 input:valid{
 border-color: blue;
 box-shadow: 3px 0px blue;
+outline: none;
 }
 
-input:invalid {
+input:focus:invalid {
   border-color: red;
+  outline: none;
   box-shadow: 3px 0px red;  
 }
 
